@@ -1,12 +1,12 @@
 package org.example.prototype;
 
 public class ArcherUnit implements Unit, Prototype<ArcherUnit> {
-    private int cost;
-    private int moveSpeed;
-    private int healthPoints;
-    private String characterName;
+    private final int cost;
+    private final int moveSpeed;
+    private final int healthPoints;
+    private final String characterName;
 
-    private int countOfArrows;
+    private final int countOfArrows;
 
     public ArcherUnit(int cost, int moveSpeed, int healthPoints, String characterName, int countOfArrows) {
         this.cost = cost;

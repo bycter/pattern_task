@@ -2,10 +2,10 @@ package org.example.prototype;
 
 public class WarriorUnit implements Unit, Prototype<WarriorUnit> {
 
-    private int cost;
-    private int moveSpeed;
-    private int healthPoints;
-    private String characterName;
+    private final int cost;
+    private final int moveSpeed;
+    private final int healthPoints;
+    private final String characterName;
 
     public WarriorUnit(int cost, int moveSpeed, int healthPoints, String characterName) {
         this.cost = cost;

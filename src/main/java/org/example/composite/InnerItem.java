@@ -10,6 +10,11 @@ public class InnerItem implements Cost {
         this.itemCost = itemCost;
     }
 
+    @Override
+    public int getCost() {
+        return itemCost;
+    }
+
     public String getItemName() {
         return itemName;
     }
@@ -24,10 +29,5 @@ public class InnerItem implements Cost {
 
     public void setItemCost(int itemCost) {
         this.itemCost = itemCost;
-    }
-
-    @Override
-    public int getCost() {
-        return itemCost;
     }
 }
